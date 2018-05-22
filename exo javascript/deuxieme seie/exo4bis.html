@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  <button type="button" name="button" onclick="affiche()">additionne</button>
+  <script type="text/javascript">
+    var tab = [-2, 1, 4];
+    function additionne(x) {
+      return 2 + x;
+    }
+    function affiche() {
+      for(i = 0; i <=2 ; i++) {
+        if(i === 1) { continue; }
+        alert(additionne(tab[tab.length - tab.length + i]));
+      }
+    }
+  </script>
+</body>
+</html>

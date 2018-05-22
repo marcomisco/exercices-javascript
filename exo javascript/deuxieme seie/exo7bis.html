@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <button type="button" name="button" onclick="faireChoix()">Click Me!</button>
+
+    <script type="text/javascript">
+      var choix = prompt("Veuillez choisir entre 1, 2 et 3")
+      function faireChoix(){
+        switch (Number(choix)) {
+          case 1:
+          alert("1. Merci");
+          break;
+          case 2:
+          alert("2. Bonjour");
+          break;
+          case 3:
+          alert("3. Au revoir");
+          default:
+          alert("Pardon, que voulez-vous ?");
+        }
+      }
+    </script>
+  </body>
+</html>
